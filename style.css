@@ -1,0 +1,67 @@
+:root {
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+  }
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+.main-topic {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.main-topic p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+.main-topic h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.btn-contact {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .project-desciption {
+    padding: 120px 60px;
+  }
+  .btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  @media screen and (max-width: 900px) {
+  
+  }
